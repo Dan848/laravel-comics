@@ -113,6 +113,17 @@ header{
         text-transform: uppercase;
     }
 }
+.main-bg-white{
+    .blue-stripes {
+        width: 100%;
+        height: 80px;
+        background-color: $dc-primary;
+    }
+    .price-checker{
+        background-color: #55ba59;
+        color: white;
+    }
+}
 .img-box {
     max-width: 150px;
     &.absolute{
@@ -121,13 +132,14 @@ header{
         left: 3rem;
     }
 }
-.blue-stripes {
-    width: 100%;
-    height: 80px;
-    background-color: $dc-primary;
-}
-.price-checker{
-    background-color: #55ba59;
-    color: white;
+
+.main-bg-gray {
+    background-color: #f6f6f6;
+    img{
+        max-width: 40px;
+        max-height: 40px;
+        filter: invert(1);
+        opacity: 0.5;
+    }
 }
 
