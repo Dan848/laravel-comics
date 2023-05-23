@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("page_title")
-
+    {{$comic["title"]}}
 @endsection
 
 @section("main_content")
