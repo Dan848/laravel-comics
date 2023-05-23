@@ -9,7 +9,7 @@
                         <ul class="list-unstyled">
                             @foreach ($footerLinks["links"] as $link)
                                 <li>
-                                    <a class="opacity-50 text-capitalize" href="#">{{ $link["text"] }}</a>
+                                    <a class="opacity-50 text-capitalize" href="{{route("home")}}">{{ $link["text"] }}</a>
                                 </li>
                             @endforeach
                         </ul>
