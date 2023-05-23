@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel Comics</title>
+    <title>@yield('page_title', "Laravel Comics")</title>
     <!-- Styles -->
     @vite('resources/js/app.js')
 
@@ -14,7 +14,7 @@
 <body>
     @include('partials.header')
     <main>
-        @yield('content')
+        @yield('main_content')
     </main>
     @include('partials.footer')
 </body>
