@@ -12,4 +12,5 @@
         </ul>
     </div>
 </header>
+<div class="hero-section"><img src="/img/jumbotron.jpg" alt="Jumbotron"></div>
 

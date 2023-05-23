@@ -7,6 +7,10 @@ $fa-font-path: "../fonts/webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
+//GENERAL
+.dc-text-primary {
+    color: $dc-primary;
+}
 
 //HEADER
 header{
@@ -44,7 +48,7 @@ header{
 
 //FOOTER
 .footer-top{
-    background-image: url("./img/dc-logo-bg.png"), url("./img/footer-bg.jpg");
+    background-image: url("/img/dc-logo-bg.png"), url("/img/footer-bg.jpg");
     background-position: right center, center center;
     background-repeat: no-repeat, no-repeat;
     background-size: 25%, cover;
@@ -103,9 +107,23 @@ header{
 //MAIN
 .main-bg-dark{
     background-color: $dc-bg-main;
+    a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+.img-box {
+    max-width: 150px;
+    &.absolute{
+        position: absolute;
+        bottom: 1rem;
+        left: 3rem;
+    }
+}
+.blue-stripes {
+    width: 100%;
+    height: 80px;
+    background-color: $dc-primary;
 }
 
-
-.dc-text-primary {
-    color: $dc-primary;
-}
